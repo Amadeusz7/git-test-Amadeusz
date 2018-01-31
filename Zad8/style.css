@@ -1,0 +1,201 @@
+.icone.lupa {
+    width: 13px;
+    height: 13px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    margin-top: 60%;
+  }
+  
+  .icone.lupa:after {
+    position: relative;
+    width: 12px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    content: "";
+    top: 40%;
+    left: 20%;
+    
+    transform: rotate(45deg);
+    transform-origin: 0px 15px;
+  }
+  body{
+    margin: 0%;
+  }
+  .header ul{
+    width: 86%;
+      display: inline-flex;
+      flex-direction: row;
+      list-style-type: none;
+      padding: 0%;
+      margin-left: 7%;
+      justify-content: space-between;
+  }
+  .header ul :nth-child(2){
+    margin-left: -10%;
+  }
+  .header ul :nth-child(3){
+    margin-left: 18%;
+  }
+  .header ul :nth-child(4){
+   border-bottom-style: solid;
+   margin-top: 0%;
+  }
+  .header ul :nth-child(n+5){
+    margin-left: -13%;
+  }
+  .header ul :nth-of-type(7){
+    border: 1px solid rgb(255, 255, 255);
+    width: 12.5%;
+    border-radius: 50px;
+    padding-left: 2%;
+    margin-left: -13%;
+    height: 50%;
+  }
+ 
+  .header{
+    width: 100%;
+    height: 1130px;
+    background-image: url("tlo.png");
+    background-size: 100%;
+  }
+  .header hr{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0%;
+  }
+  .header nav{
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+  }
+.header div{
+  margin-left: 20%;
+  font-size: 200%;
+  color: rgb(0, 0, 0);
+}
+.header :nth-child(4){
+  margin-top: -7px;
+  display: flex;
+  flex-direction: row;
+}
+.header div :last-child:nth-of-type(2){
+  margin-left: 3%;
+}
+.header h1{
+  font-size: 400%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 0;
+}
+i{
+  margin-top: 3.35%;
+}
+.main h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 200%;
+  margin-bottom: 13px;
+  margin-top: 6%;
+  color: #31475e;
+}
+.main h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%; 
+  margin-top: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 100%; 
+  color: #31475e;
+}
+.main nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 8%;
+  margin-left: 46%;
+  box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 05);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #31475e;
+}
+.main hr{
+  margin-left: 7%;
+  margin-right: 7%;
+  color: #9012fe;
+  background-color: #9012fe;
+}
+.main :nth-child(2){
+  margin-left: 46.5%;
+  margin-right: 46.5%;
+}
+.article h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 200%; 
+  margin-top: 4%;
+  margin-bottom: 13px;
+  color: #31475e;
+}
+.article table{
+  
+  width: 60%; margin: 0 auto; text-align: left;
+  text-align: left;
+  border-collapse: collapse;
+  border: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #31475e;
+  box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 05);
+}
+.article hr{
+  margin-left: 46.5%;
+  margin-right: 46.5%;
+  margin-bottom: 13px;
+  color: #9012fe;
+  background-color: #9012fe;
+}
+.article table, th{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.article table, td{
+  padding-left: 25px;
+}
+.article nav{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12%;
+  margin-top: 3%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 8%;
+  margin-left: 46%;
+  box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 05);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #31475e;
+}
+.informations{
+  height: 800px;
+  width: 100%;
+  background-image: url("info.png");
+  background-size: 100%;
+}
+.footer{
+  height: 774px;
+  width: 80%;
+  background-image: url("foter.png");
+  background-size: 100% auto;
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
