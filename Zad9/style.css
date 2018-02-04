@@ -1,0 +1,64 @@
+.triple-set{
+    display:flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.triple-set > *{
+    width: 33%;
+}
+.triple-set .input-group {
+    display: flex;
+  }
+  
+.triple-set .input-group label {
+    min-width: 150px;
+}
+  
+.triple-set .input-group input {
+    flex: 1;
+    margin-right: 30px;
+}
+.country{
+    width: 253px;
+}
+.double-set{
+    display:flex;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.double-set > *{
+    width: 50%;
+}
+.double-set .input-group {
+    display: flex;
+  }
+  
+.double-set .input-group label {
+    min-width: 150px;
+}
+  
+.double-set .input-group input {
+    flex: 1;
+    margin-right: 30px;
+}
+.choice-set{
+    display:flex;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.choice-set > *{
+    width: 50%;
+}
+.choice-set .input-group {
+    display: flex;
+  }
+  
+.choice-set .input-group label {
+    min-width: 150px;
+}
+  
+.choice-set .input-group input {
+    flex: 1;
+    margin-right: 30px;

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+ <head>
+     <title>Azja</title>
+     <meta charset="UTF-8">
+     <meta name="Description" Content="Form">
+     <meta name="keywords" Content="Asia, travel, guide">
+     <meta name="author" Content="travel">
+     <link rel="stylesheet" type="text/css" href="style.css">
+    
+ </head>
+<body>
+    <form id="register-form">  
+        <fieldset>
+            <legend>Dane osobowe</legend>
+            <section class="triple-set">
+            <div class="input-group">
+                <label for="name">Imie</label>
+                <input type="text" name="name" required maxlength="20">
+            </div>
+            <div class="input-group">
+                    <label for="surname">Nazwisko</label>
+                    <input type="text" name="surname" >
+            </div>
+            <div class="input-group">
+                    <label for="date">Data</label>
+                    <input type="date" name="data">
+            </div>
+            </section>  
+            <section class="triple-set">
+                    <div class="input-group">
+                        <label for="age">Wiek</label>
+                        <input type="number" name="age" min="16">
+                    </div>
+                    <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" required>
+                    </div>
+                    <div class="input-group">
+                    
+                    </div>
+            </section>
+            <section class="triple-set">
+                    <div class="input-group">
+                        <label for="text">Kraj</label>
+                        <select class="country">
+                                <option value="polska">Polska</option>
+                                <option value="australia">Australia</option>
+                                <option value="czechy">Czechy</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                    </div>
+                    <div class="input-group">
+                    </div>
+            </fieldset>  
+            </section>
+            <fieldset>
+            <legend>Hasło</legend>
+            <section class="double-set">
+                <div class="input-group">
+                    <label for="password">Hasło</label>
+                    <input type="password" name="password">
+                </div>
+                <div class="input-group">
+                    <label for="password">Powtórz Hasło</label>
+                    <input type="password" name="password">
+                </div>
+            </section>  
+            </fieldset>
+            <section>
+                <Fieldset>
+                    <legend>Inne</legend>
+                    <section class="choice-set">
+                        <div class=input-group>
+                            <span>Ulubione<br>filmy</span>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" name="choice">Komedia</label>
+                            <label><input type="checkbox" name="choice">Akcji</label>
+                            <label><input type="checkbox" name="choice">Komedia romantyczna</label>
+                            <label><input type="checkbox" name="choice" checked>Sci-FI</label>
+                        </div>
+                        <div class=input-group>
+                                <span>Płeć</span>
+                                <input type="radio" name="choice">
+                                <label for="radio">Mężczyzna</label>
+                                <input type="radio" name="choice">
+                                <label for="radio">Kobieta</label>
+                        </div>
+                    </section>
+                </Fieldset>
+            </section>
+    <input type="reset" form="register-form"/>
+    <input type="submit" value="Submit" />
+  </form>
+</body>
